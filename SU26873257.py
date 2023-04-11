@@ -453,7 +453,9 @@ def check_stdio_empty():
 
 def is_float(s):
     for i in range (len(s)):
-        if not (s[i] in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "E", "-", "."]):
+        if (s[i] in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "E", "-", "."]):
+            continue
+        else:
             termination(ERR_FLOAT_EXPECTED)
 
 
