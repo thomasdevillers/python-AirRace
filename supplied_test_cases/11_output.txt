@@ -1,0 +1,4 @@
+Game mode: 0
+Graphics mode: 0
+
+Termination: Player terminated the game.
